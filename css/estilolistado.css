@@ -16,14 +16,14 @@ table, th {
        color: green;
    }
    .carne::before{
-       content: url(/home/adri/ITB/DAWe1/M4/VALLEJO_ADRIA_DAWE_1/imagenes/iconocarne.png)
+       content: url(..imagenes/iconocarne.png)
    }
    .pasta::before{
-    content: url(/home/adri/ITB/DAWe1/M4/VALLEJO_ADRIA_DAWE_1/imagenes/iconopasta.png)
+    content: url(../imagenes/iconopasta.png)
 }
 .cocteles::before{
-    content: url(/home/adri/ITB/DAWe1/M4/VALLEJO_ADRIA_DAWE_1/imagenes/iconococtel.png)
+    content: url(../imagenes/iconococtel.png)
 }
 .postres::before{
-    content: url(/home/adri/ITB/DAWe1/M4/VALLEJO_ADRIA_DAWE_1/imagenes/iconopostre.png)
+    content: url(../imagenes/iconopostre.png)
 }

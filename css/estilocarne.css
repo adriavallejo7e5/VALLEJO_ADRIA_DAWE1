@@ -17,7 +17,7 @@ table, th {
       color: green;
   }
   .carne::before{
-    content: url(/home/adri/ITB/DAWe1/M4/VALLEJO_ADRIA_DAWE_1/imagenes/iconocarne.png)
+    content: url(../imagenes/iconocarne.png)
 }
 .pas p:first-of-type{
     font-style: italic;
