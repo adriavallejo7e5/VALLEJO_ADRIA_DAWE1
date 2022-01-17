@@ -3,6 +3,7 @@ aside{
     float: left;
     margin-left: 7%;
     color: gray;
+    text-align: center;
 }
 aside div{
     background-color: gainsboro;
@@ -13,7 +14,9 @@ aside div :last-child{
 }
 aside p:first-of-type{
     color: black;
-    text-align: center;
+}
+.gris{
+    text-align: start;
 }
 main{
     width: 60%;

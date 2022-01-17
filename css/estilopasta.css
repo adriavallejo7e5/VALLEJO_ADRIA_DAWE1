@@ -9,9 +9,6 @@ table, th {
     text-align: start;
     font-weight: normal;
   }
-  .pas{
-      display: inline;
-  }
   table{
       border-bottom: none;
   }
@@ -24,7 +21,3 @@ table, th {
 .pas p:first-of-type{
     font-style: italic;
 }
-.pas{
-    display: inline;
-}
-

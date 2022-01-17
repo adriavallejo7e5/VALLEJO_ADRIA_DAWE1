@@ -1,0 +1,29 @@
+aside{
+    width: 15%;
+    float: left;
+    margin: 2% 7% 2%;
+    color: gray;
+}
+h1, h3{
+    color: green;
+}
+aside div{
+    background-color: gainsboro;
+}
+aside div :last-child{
+    background-color: #7ABA96;
+    color: black;
+}
+aside p:first-of-type{
+    color: black;
+    text-align: center;
+}
+main{
+    width: 60%;
+    float: right;
+    padding: 20px;
+}
+main img{
+    width: 700px;
+    height: 500px;
+}
