@@ -33,7 +33,7 @@ input[type=text], input[type=email], select{
 }
 .form_mensaje{
     height: 300px;
-    word-wrap: break-word;
+    overflow: auto;
 }
 
 input[type=text]:focus, input[type=email]:focus{

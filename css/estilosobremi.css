@@ -1,0 +1,11 @@
+.ult{
+    display: flex;
+}
+.ult figure img{
+    width: 45%;
+    height: 90%;
+    border-radius: 100%;
+}
+.ult article{
+    width: 50%;
+}

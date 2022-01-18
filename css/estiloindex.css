@@ -50,3 +50,6 @@ section p:first-of-type{
 section p:last-of-type{
     text-align: start;
 }
+footer{
+    clear: both;
+}
