@@ -16,7 +16,7 @@ table, th {
        color: green;
    }
    .carne::before{
-       content: url(..imagenes/iconocarne.png)
+       content: url(../imagenes/iconocarne.png)
    }
    .pasta::before{
     content: url(../imagenes/iconopasta.png)
