@@ -23,7 +23,7 @@ APELLIDOS: Vallejo Proaño
 <nav>
     <ul>
 		<li id="inicio"><a href="../index.html">Inicio</a></li> 
-		<li id="sobre_mi"><a href="">Sobre mí</a></li> 
+		<li id="sobre_mi"><a href="../sobremi/sobremi.html">Sobre mí</a></li> 
 		<li id="recetas"><a href="../listado/listado.html">Recetas</a>
 		<div class="dropdown-content">
 			<a href="../listado/listadocarne.html">Recetas de carne</a>
@@ -41,7 +41,7 @@ APELLIDOS: Vallejo Proaño
     <img src="../imagenes/isagil.png" alt="imagenes">
 </figure>
 
-	 <form action="cont.php" method="get">
+	 <form action="http://www.example.com/example.htm" target= "_blank" method="get">
         <input type="text" id="name" class="form_name" name="yourname" placeholder="Nombre"><br>
         <input type="email" class="form_email" placeholder="Email"><br>
 		<select name="Tipo" id="Tipo">
@@ -52,7 +52,7 @@ APELLIDOS: Vallejo Proaño
 			<option value="Otros">Otros</option>
 		</select>
 		<input type="file" name="archivosmultiples[]" multiple><br>
-        <input type="text" id="mensaje" class="form_mensaje" placeholder="Escribe algo..."><br>
+        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe algo..."></textarea>
 		<input type="submit" value="Enviar">
     </form>
 

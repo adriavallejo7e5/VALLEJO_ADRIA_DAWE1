@@ -6,8 +6,9 @@ main{
     height: 700px;
 }
 form{
-    width: 1000px;
+    width: 900px;
     height: 700px;
+    display: block;
 }
 input[type=submit]{
     width: 100px;
@@ -31,12 +32,18 @@ input[type=text], input[type=email], select{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.form_mensaje{
+textarea {
+    width: 800px;
     height: 300px;
-    overflow: auto;
-}
+    padding: 12px 20px;
+    margin: 8px;
+    /* box-sizing: border-box; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
 
-input[type=text]:focus, input[type=email]:focus{
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
     border: 2px solid #7ABA96;
     outline: none;
 }
